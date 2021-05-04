@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  height:100%;
+  opacity: 1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 10%;
+  color: white;
+  text-decoration: none;
+}
+
+
+body {
+  background: rgb(22,66,175);
+  background: linear-gradient(180deg, rgba(22,66,175,1) 0%, rgba(3,0,43,1) 150%);
+  margin: 0; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.NavbarItems {
+  background: rgb(22,66,175);
+  background: linear-gradient(180deg, rgba(22,66,175,1) 0%, rgba(3,0,43,1) 150%);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  margin-left: .5rem;
+}
+
+.nav-menu{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  column-gap: 2rem;
+  list-style: none;
+  text-align: center;
+  width: 70vw;  
+  justify-content: end;
+  margin-right: 2rem;
+  align-items: center;
+}
